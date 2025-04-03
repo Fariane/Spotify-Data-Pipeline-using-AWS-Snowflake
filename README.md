@@ -24,3 +24,28 @@ This project involves implementing an ETL pipeline that integrates Spotify API, 
     - 	Automates ingestion of transformed data into Snowflake tables.
     -  Provides scalable and performant query execution.
 - **Power BI:** Generates interactive dashboards for insights and trend analysis.
+
+## Tools and Technologies
+
+### Programming Languages :
+- **Python** for API interactions and ETL scripting
+
+### AWS Services:
+- **AWS Lambda:** For data extraction and triggering transformation workflows.
+- **Amazon CloudWatch:** To trigger Lambda functions on a scheduled basis.
+- **AWS Glue (Apache Spark):** For processing and structuring large datasets.
+- **Amazon S3:** For storing raw and transformed data.
+  
+### Data Warehouse
+- **Snowflake:** Serves as the centralized data warehouse, with automated ingestion via Snowpipe.
+
+### Visualization & Reporting
+- **Power BI:** Generates reports and dashboards for insights.
+
+## Benefits
+- **Fully Automated:** Scheduled processes ensure seamless data updates.
+- **Scalable & Efficient:** AWS Glue & Snowflake optimize large-scale data processing.
+
+## Future Enhancements
+- Implement real-time streaming for dynamic data ingestion.
+- Develop machine learning models to predict music trends.
