@@ -14,13 +14,13 @@ This project involves implementing an ETL pipeline that integrates Spotify API, 
 
 ### Data Transformation
 - **AWS Glue (Spark Jobs):**
-    - o	Cleans and normalizes JSON data into structured tables.
-    - o	Converts data into CSV format for efficient storage.
-    - o	Handles schema evolution and large-scale data processing.
+    - 	Cleans and normalizes JSON data into structured tables.
+    - 	Converts data into CSV format for efficient storage.
+    - 	Handles schema evolution and large-scale data processing.
 
 ### Data Loading & Analytics
 - **Amazon S3:** Stores both raw and transformed data.
 - **Snowpipe (Snowflake):**
-    - o	Automates ingestion of transformed data into Snowflake tables.
-    - o Provides scalable and performant query execution.
+    - 	Automates ingestion of transformed data into Snowflake tables.
+    -  Provides scalable and performant query execution.
 - **Power BI:** Generates interactive dashboards for insights and trend analysis.
